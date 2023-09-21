@@ -10,7 +10,7 @@ const { body } = require('express-validator');
  const con = mysql.createConnection({
    host:'localhost',
    user:'root',
-   password:'M1nohar@321',
+   password:'*******',
    database:'shopweb'
  });
  con.connect(function(error){
