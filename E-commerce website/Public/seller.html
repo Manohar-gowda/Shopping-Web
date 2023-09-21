@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hideaway | Seller</title>
+    <link rel="icon" type="image/x-icon" href="images/fav-icon.png">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/seller.css">
+   
+</head>
+<body>
+    <img src="images/loader.gif" class="loader" alt="">
+
+    <div class="alert-box">
+        <img src="images/error.png" class="alert-img" alt="">
+        <p class="alert-msg">Error message</p>
+    </div>
+
+    <img src="images/logo.png" class="logo" alt="">
+    <!---become seller element -->
+    <div class="become-seller hide">
+        <p class="heading">become a seller</p>
+        <p class="des">Becoming seller is not a easy part for anyone,as a students of GECK
+            we recommend you this website  As online shoppers usually dont have access to the real product,
+             the visual appearance of what you sell online is extremely important. 
+             Imagine that you are buying a dress via an e-commerce website. 
+             In a real store you would be able to touch the material its made of,
+              try it on to make sure it looks good and that it matches the color of your shoes, etc.</p>
+              <button class="btn" id="apply-btn">apply for seller account</button>
+    </div>
+    <!--apply form-->
+    <div class="apply-form hide">
+        <input type="text" id="business-name" placeholder="business name / company name / shop name">
+        <textarea  id="business-add" placeholder="address" ></textarea>
+        <textarea  id="about" placeholder="about" ></textarea>
+        <input type="text" id="number" placeholder="number">
+        <input type="checkbox" checked class="checkbox" id="terms-and-cond">
+            <label for="terms-and-cond">agree to our <a href="">terms and conditions</a></label>
+            <br>
+            <input type="checkbox" checked class="checkbox" id="legitInfo">
+            <label for="legitInfo">all information is legit</a></label>
+            <button class="submit-btn" id="apply-form-btn">Apply </button>
+
+    </div>
+    <!--- product list-->
+<div class="product-listing hide">
+    <div class="add-product">
+    <p class="add-product-title">add product</p>
+    <button class="btn">add product</button>
+    </div>
+
+    <img src="images/no-products.png" class="no-product-image" alt="">
+</div>
+
+
+    <script src="JS/seller.js"></script>
+<script src ="JS/token.js"></script>
+</body>
+</html>
